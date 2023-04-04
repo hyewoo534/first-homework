@@ -20,7 +20,8 @@ public class Warrior : MonoBehaviour
         Vector2 movement = new Vector2(moveHorizontal, 5f);
         rb.velocity = movement * speed;
     }
-    // Start is called before the first frame update
+    
+    //// Start is called before the first frame update
  
 
 }
